@@ -32,7 +32,7 @@ buttonCalc.addEventListener('click', function() {
         totalPrice = ticketPrice;
         
     };
-    ticket.innerHTML += `<h6>${totalPrice.toFixed()} €</h6>`;
+    ticket.innerHTML += `<h6>${totalPrice.toFixed(2)} €</h6>`;
     ticket.classList.remove('d-none');
 
 });
